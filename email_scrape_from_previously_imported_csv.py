@@ -31,6 +31,7 @@ def function(page):
         
         count = 1
         for item in emails:
+		email_list.append(emails)
             print('Email address #' + str(count) + ': ' + item)
             count += 1
 
